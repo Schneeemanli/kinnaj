@@ -2,3 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes floatUpDownOne {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes floatUpDownTwo {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+@keyframes floatUpDownThree {
+    0%, 100% {
+        transform: translateY(-3px);
+    }
+    50% {
+        transform: translateY(13px);
+    }
+}
+@keyframes floatUpDownFour {
+    0%, 100% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(13px);
+    }
+}
+
+.animate-client-card-one {
+    animation: floatUpDownOne 3s ease-in-out infinite;
+}
+
+.animate-client-card-two {
+    animation: floatUpDownTwo 4s ease-in-out infinite;
+}
+
+.animate-client-card-three {
+    animation: floatUpDownThree 6s ease-in-out infinite;
+}
+
+.animate-client-card-four {
+    animation: floatUpDownFour 5s ease-in-out infinite;
+}
+
+/* fpv */
+@keyframes move-left {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(-20px) translateY(-10px);
+    }
+}
+
+@keyframes move-right {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(20px) translateY(10px);
+    }
+}
+
+.animate-move-left {
+    animation: move-left 6s ease-in-out alternate infinite;
+}
+
+.animate-move-right {
+    animation: move-right 8s ease-in-out alternate infinite;
+}
+
