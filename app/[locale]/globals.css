@@ -38,19 +38,19 @@
 }
 
 .animate-client-card-one {
-    animation: floatUpDownOne 3s ease-in-out infinite;
+    animation: floatUpDownOne 7s ease-in-out infinite;
 }
 
 .animate-client-card-two {
-    animation: floatUpDownTwo 4s ease-in-out infinite;
+    animation: floatUpDownTwo 8s ease-in-out infinite;
 }
 
 .animate-client-card-three {
-    animation: floatUpDownThree 6s ease-in-out infinite;
+    animation: floatUpDownThree 10s ease-in-out infinite;
 }
 
 .animate-client-card-four {
-    animation: floatUpDownFour 5s ease-in-out infinite;
+    animation: floatUpDownFour 9s ease-in-out infinite;
 }
 
 /* fpv */
@@ -80,3 +80,22 @@
     animation: move-right 8s ease-in-out alternate infinite;
 }
 
+.custom-transition-time {
+    transition-duration: 2000ms;
+}
+
+.custom-transition-delay-0 {
+    transition-delay: 0ms;
+}
+
+.custom-transition-delay-1 {
+    transition-delay: 150ms;
+}
+
+.custom-transition-delay-2 {
+    transition-delay: 300ms;
+}
+
+.custom-transition-delay-3 {
+    transition-delay: 450ms;
+}

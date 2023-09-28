@@ -1,11 +1,9 @@
-"use client"
-
 import React from "react";
 import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="text-white shadow bg-gray-700">
+        <footer className="text-white shadow bg-gray-700 mt-auto">
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a href="https://kinnajfilms.ch/"
                                                                                           className="hover:underline">Kinnaj Films</a>. All Rights Reserved.

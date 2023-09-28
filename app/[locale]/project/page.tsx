@@ -1,13 +1,12 @@
-"use client"
-
 import React from "react";
-import Footer from "@/app/components/footer";
+import Footer from "@/app/[locale]/components/footer";
+import Header from "@/app/[locale]/components/header";
 
 export default function Page() {
     return (
         <div>
+            <Header/>
             <h2>Project</h2>
-            <Footer/>
         </div>
     )
 }
