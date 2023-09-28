@@ -30,7 +30,7 @@ const RevealOnScroll = ({children, time, axis = 'y', direction = ''}: {
     const delay = time ? "custom-transition-delay-" + time : '';
 
     const classes = `transition custom-transition-time ${delay}
-        ${isVisible ? `${direction}translate-${axis}-0` : `${direction}translate-${axis}-36`}
+        ${isVisible ? `custom-transition-size-0-${axis}` : `custom-transition-size-1-${axis}`}
         ${isVisible ? 'opacity-100' : 'opacity-0'}`;
 
     return (

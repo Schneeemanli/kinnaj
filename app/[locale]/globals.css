@@ -99,3 +99,19 @@
 .custom-transition-delay-3 {
     transition-delay: 450ms;
 }
+
+.custom-transition-size-0-y {
+    transform: translateY(0rem);
+}
+
+.custom-transition-size-1-y {
+    transform: translateY(9rem);
+}
+
+.custom-transition-size-0-x {
+    transform: translateX(0rem);
+}
+
+.custom-transition-size-1-x {
+    transform: translateX(9rem);
+}
