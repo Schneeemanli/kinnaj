@@ -7,6 +7,7 @@ import {NextIntlClientProvider, useLocale, useMessages} from 'next-intl';
 import {notFound} from 'next/navigation';
 
 import Footer from "@/app/[locale]/components/footer";
+import {Providers} from "@/app/[locale]/components/provider";
 
 const inter = Inter({subsets: ['latin']})
 const locales = ['en', 'de', 'fr'];
@@ -21,11 +22,13 @@ export default function RootLayout({children, params}: { children: ReactNode, pa
     const isValidLocale = locales.some((cur) => cur === locale);
     if (!isValidLocale) notFound();
     return (
-        <html lang={locale}>
+        <html lang={locale} suppressHydrationWarning={true}>
         <body className={inter.className}>
         <main className="flex flex-col min-h-screen">
             <NextIntlClientProvider locale={locale} messages={messages}>
-                {children}
+                <Providers>
+                    {children}
+                </Providers>
             </NextIntlClientProvider>
             <Footer/>
         </main>

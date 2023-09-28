@@ -9,24 +9,15 @@ const config: Config = {
         './app/**/*.{js,ts,jsx,tsx,mdx}',
         './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
     ],
-    theme: {
-        extend: {
-            backgroundImage: {
-                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                'gradient-conic':
-                    'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-            },
-        },
-    },
     darkMode: "class",
     plugins: [nextui(
         {
             themes: {
-                "purple-dark": {
-                    extend: "dark", // <- inherit default values from dark theme
+                "custom-dark": {
+                    extend: "dark",
                     colors: {
-                        background: "#0D001A",
-                        foreground: "#ffffff",
+                        background: "#040D12",
+                        foreground: "#c7c7c7",
                         primary: {
                             50: "#3B096C",
                             100: "#520F83",
@@ -42,26 +33,13 @@ const config: Config = {
                             foreground: "#ffffff",
                         },
                         focus: "#F182F6",
-                    },
-                    layout: {
-                        disabledOpacity: "0.3",
-                        radius: {
-                            small: "4px",
-                            medium: "6px",
-                            large: "8px",
-                        },
-                        borderWidth: {
-                            small: "1px",
-                            medium: "2px",
-                            large: "3px",
-                        },
                     },
                 },
-                "white": {
-                    extend: "white",
+                "custom-white": {
+                    extend: "light",
                     colors: {
-                        background: "#a21a1a",
-                        foreground: "#a41414",
+                        background: "#ffffff",
+                        foreground: "#838383",
                         primary: {
                             50: "#3B096C",
                             100: "#520F83",
@@ -77,19 +55,6 @@ const config: Config = {
                             foreground: "#ffffff",
                         },
                         focus: "#F182F6",
-                    },
-                    layout: {
-                        disabledOpacity: "0.3",
-                        radius: {
-                            small: "4px",
-                            medium: "6px",
-                            large: "8px",
-                        },
-                        borderWidth: {
-                            small: "1px",
-                            medium: "2px",
-                            large: "3px",
-                        },
                     },
                 },
             },

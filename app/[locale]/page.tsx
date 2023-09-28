@@ -9,7 +9,7 @@ import Header from "@/app/[locale]/components/header";
 
 export default function Home() {
     return (
-        <main>
+        <main className="white">
             <Header/>
             <div className="relative">
                 <video autoPlay loop muted className="w-full object-cover">
