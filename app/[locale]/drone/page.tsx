@@ -4,8 +4,10 @@ import Header from "@/app/[locale]/components/header";
 import Link from "next/link";
 import Section from "@/app/[locale]/components/section";
 import SectionLeft from "@/app/[locale]/components/sectionLeft";
+import {useTranslations} from "next-intl";
 
 export default function Page() {
+    const t = useTranslations('Project');
     return (
         <div>
             <Header/>
