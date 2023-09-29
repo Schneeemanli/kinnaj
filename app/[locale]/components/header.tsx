@@ -1,6 +1,6 @@
 "use client"
 
-import {Fragment, useState} from 'react'
+import {Fragment, useEffect, useState} from 'react'
 import {Dialog, Disclosure, Popover, Transition} from '@headlessui/react'
 import {
     ArrowPathIcon,
@@ -15,23 +15,29 @@ import {ChevronDownIcon, PhoneIcon, PlayCircleIcon} from '@heroicons/react/20/so
 import LanguageDropdown from "@/app/[locale]/components/languageDropdown";
 import {ThemeSwitcher} from "@/app/[locale]/components/themeSwitcher";
 import Link from "next/link";
+import {useTheme} from "next-themes";
 
 function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(' ')
 }
 
 export default function Header() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const theme = useTheme();
+    const [logoSrc, setLogoSrc] = useState("./logo_black.svg");
+
+    useEffect(() => {
+        setLogoSrc(theme.resolvedTheme === "custom-dark" ? "./logo_white.svg" : "./logo_black.svg");
+    }, [theme.resolvedTheme]);
 
     return (
         <header className="bg-transparent">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Your Company</span>
-                        <img className="h-8 w-auto"
-                             src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt=""/>
-                    </a>
+                    <Link href="/" className="-m-1.5 p-1.5">
+                        <span className="sr-only">Kinnaj Films</span>
+                        <img className="h-8 w-auto" src={logoSrc} alt=""/>
+                    </Link>
                 </div>
                 <div className="flex lg:hidden">
                     <button
