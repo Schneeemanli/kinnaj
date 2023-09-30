@@ -13,7 +13,7 @@ export default function Footer() {
                     className="hover:underline">Kinnaj Films</a>. All Rights Reserved.</span>
                 <ul>
                     <li className="pt-4 sm:pt-0 md:pt-0">
-                        <span className="text-white dark:text-gray-400">Made in <span className="fi fi-ch ms-1"></span></span>
+                        <span className="text-white dark:text-gray-400">Made in <span className="fi fi-ch ms-1 rounded-sm"></span></span>
                     </li>
                 </ul>
                 <ul className="flex flex-wrap items-center text-sm font-medium dark:text-gray-400 sm:mt-0">
