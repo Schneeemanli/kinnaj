@@ -24,12 +24,11 @@ function classNames(...classes: string[]) {
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const theme = useTheme();
-    const [logoSrc, setLogoSrc] = useState("./logo_black.svg");
+    const [logoSrc, setLogoSrc] = useState("/logo_black.svg");
 
     useEffect(() => {
-        setLogoSrc(theme.resolvedTheme === "custom-dark" ? "./logo_white.svg" : "./logo_black.svg");
+        setLogoSrc(theme.resolvedTheme === "custom-dark" ? "/logo_white.svg" : "/logo_black.svg");
     }, [theme.resolvedTheme]);
-
     return (
         <header className="bg-transparent">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -80,7 +79,7 @@ export default function Header() {
                             <span className="sr-only">Your Company</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src={logoSrc}
                                 alt=""
                             />
                         </a>
