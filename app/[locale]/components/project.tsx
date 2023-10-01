@@ -11,44 +11,28 @@ export default function Project() {
                     <RevealOnScroll time="0">
                     <div className="bg-white shadow-lg rounded-3xl overflow-hidden animate-client-card-one">
                         <div className="flex items-center justify-center">
-                            <img src="client1-logo.png" alt="Client 1 Logo" className="w-32 h-32 object-contain"/>
-                        </div>
-                        <div className="p-4">
-                            <h2 className="text-2xl font-semibold">Client 1</h2>
-                            <p className="text-gray-700 mt-2">Eine kurze Beschreibung des ersten Kunden.</p>
+                            <img src="/client_logos/sottas.png" alt="Client 1 Logo" className="w-32 h-32 object-contain"/>
                         </div>
                     </div>
                     </RevealOnScroll>
                     <RevealOnScroll time="1">
                     <div className="bg-white shadow-lg rounded-3xl overflow-hidden animate-client-card-two">
                         <div className="flex items-center justify-center">
-                            <img src="client2-logo.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
-                        </div>
-                        <div className="p-4">
-                            <h2 className="text-2xl font-semibold">Client 2</h2>
-                            <p className="text-gray-700 mt-2">Eine kurze Beschreibung des zweiten Kunden.</p>
+                            <img src="/client_logos/tennisclub_murten.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
                         </div>
                     </div>
                     </RevealOnScroll>
                     <RevealOnScroll time="2">
                     <div className="bg-white shadow-lg rounded-3xl overflow-hidden animate-client-card-three">
                         <div className="flex items-center justify-center">
-                            <img src="client2-logo.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
-                        </div>
-                        <div className="p-4">
-                            <h2 className="text-2xl font-semibold">Client 3</h2>
-                            <p className="text-gray-700 mt-2">Eine kurze Beschreibung des dritten Kunden.</p>
+                            <img src="/client_logos/bastella.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
                         </div>
                     </div>
                     </RevealOnScroll>
                     <RevealOnScroll time="3">
                     <div className="bg-white shadow-lg rounded-3xl overflow-hidden animate-client-card-four">
                         <div className="flex items-center justify-center">
-                            <img src="client2-logo.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
-                        </div>
-                        <div className="p-4">
-                            <h2 className="text-2xl font-semibold">Client 4</h2>
-                            <p className="text-gray-700 mt-2">Eine kurze Beschreibung des vierten Kunden.</p>
+                            <img src="/client_logos/Castiglione_Falletto.png" alt="Client 2 Logo" className="w-32 h-32 object-contain"/>
                         </div>
                     </div>
                     </RevealOnScroll>

@@ -1,19 +1,18 @@
 import React from "react";
 import Link from "next/link";
 import RevealOnScroll from "./revealOnScroll";
+import {useTranslations} from "next-intl";
 
 export default function Fpv() {
+    const t = useTranslations("Home");
     return (
         <div className="bg-primary-50 p-5 md:p-8 lg:p-11 relative">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <RevealOnScroll axis="x">
                     <div className="p-4 bg-white shadow-lg rounded-3xl animate-move-left">
-                        <h2 className="text-2xl text-gray-700 font-semibold mb-4">Was ist FPV?</h2>
-                        <p className="text-gray-700">FPV steht für First-Person View und bezieht sich auf eine Art des
-                            Fliegens, bei dem ein Pilot eine Drohne oder ein Flugzeug aus der Sicht eines Cockpit-Pilots
-                            steuert.</p>
-                        <p className="text-gray-700 mt-4">Mit FPV können Sie ein immersives Flugerlebnis genießen und
-                            das Gefühl haben, selbst im Cockpit zu sitzen.</p>
+                        <h2 className="text-2xl text-gray-700 font-semibold mb-4">{t("fpvTitel")}</h2>
+                        <p className="text-gray-700">{t("whatIsFpv")}</p>
+                        <p className="text-gray-700 mt-4">{t("offersFPV")}</p>
                     </div>
                 </RevealOnScroll>
                 <RevealOnScroll axis="x">
