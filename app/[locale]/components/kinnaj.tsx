@@ -13,7 +13,7 @@ export default function Kinnaj() {
                 <h2 className="text-2xl font-semibold mb-2">Kinnaj Films</h2>
                 <p className="text-primary-100 pb-8">{t("kinajBeschreibung")}</p>
                 <Link href="/about" className="bg-primary-200 hover:bg-primary-300 text-white font-semibold py-2 px-4 rounded-full">
-                    About Jannik Hug
+                    {t("buttonAbout")}
                 </Link>
             </div>
         </div>

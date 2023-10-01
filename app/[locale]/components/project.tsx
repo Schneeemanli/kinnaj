@@ -1,8 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import RevealOnScroll from "@/app/[locale]/components/revealOnScroll";
+import {useTranslations} from "next-intl";
 
 export default function Project() {
+    const t = useTranslations("Home");
     return (
         <div className="white flex flex-col items-center justify-between bg-primary-50">
             <h1 className="pt-8 text-white font-bold text-2xl">Clients</h1>
@@ -40,7 +42,7 @@ export default function Project() {
             </div>
             <div className="p-7 bottom-0 right-0">
                 <Link href="/project" className="bg-primary-200 hover:bg-primary-300 text-white font-semibold py-2 px-4 rounded-full">
-                    More Clients
+                    {t("buttonProjects")}
                 </Link>
             </div>
         </div>

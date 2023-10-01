@@ -28,9 +28,8 @@ export default function Fpv() {
                 </RevealOnScroll>
             </div>
             <div className="flex items-center justify-center pt-5">
-                <Link href="/drone"
-                      className="bg-primary-200 hover:bg-primary-300 text-white font-semibold py-2 px-4 rounded-full">
-                    More about Equipment
+                <Link href="/drone" className="bg-primary-200 hover:bg-primary-300 text-white font-semibold py-2 px-4 rounded-full">
+                    {t("buttonEquipment")}
                 </Link>
             </div>
         </div>
