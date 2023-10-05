@@ -13,5 +13,13 @@
   "Projects": {
     "title": "Projekte",
     "description": "Hier sind meine Projekte"
+  },
+  "About": {
+    "titleJannik": "<-- ME>",
+    "description1": "Hier sind meine Projekte",
+    "titleDrones": "Jannik Elia Hug",
+    "description2": "Hier sind meine Projekte",
+    "title2": "Jannik Elia Hug",
+    "description3": "Hier sind meine Projekte"
   }
 }

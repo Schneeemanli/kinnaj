@@ -13,14 +13,8 @@ export default function Section({image, title, text, dark}: {
                 <img src={image} alt="Bild" className="w-full h-auto"/>
             </div>
             <div className="w-full sm:w-2/3 sm:ps-5 p-4">
-                <h2 className="text-2xl font-semibold mb-2">Kinnaj Films</h2>
-                <p className="pb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                    est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-                    eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                    est Lorem ipsum dolor sit amet.</p>
+                <h2 className="text-2xl font-semibold mb-2">{title}</h2>
+                <p className="pb-8">{text}</p>
             </div>
         </div>
     );

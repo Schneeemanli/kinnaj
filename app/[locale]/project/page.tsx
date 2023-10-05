@@ -8,9 +8,9 @@ export default function Page() {
     return (
         <div>
             <Header/>
-            <Section image="/portrait.png" title="Titel1" text="lorem ipsum" dark={true}/>
-            <SectionLeft image="/portrait.png" title="Titel1" text="lorem ipsum" dark={false}/>
-            <Section image="/portrait.png" title="Titel1" text="lorem ipsum" dark={true}/>
+            <Section image="/about_me/about1.jpg" title="Titel1" text="lorem ipsum" dark={true}/>
+            <SectionLeft image="/about_me/about_drone.jpg" title="Titel1" text="lorem ipsum" dark={false}/>
+            <Section image="/about_me/about2.jpg" title="Titel1" text="lorem ipsum" dark={true}/>
         </div>
     )
 }

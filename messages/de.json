@@ -13,5 +13,13 @@
   "Projects": {
     "title": "Projekte",
     "description": "Hier sind meine Projekte"
+  },
+  "About": {
+    "titleJannik": "<-- Me",
+    "description1": "Hey there, I'm Jannik Elia Hug, a 23-year-old on a mission to reach new heights, both in life and adventure. Standing tall at 1.93 meters, I'm all about pushing boundaries. \nMy heart beats for sports, with a constant switch between calisthenics, martial arts, and my latest love, Muay Thai. Technology fuels my curiosity, enabling us to achieve more. I thrive on creating memories, whether it's scaling mountains, making memories with friends, or capturing the beauty of our world through a camera lens.\nMy educational journey took me from Murten, Switzerland, through a computer science apprenticeship and Matura. I later embraced the challenge of special forces training during my military service. Now, I'm diving into the dynamic world of computer science at Berner Fachhochschule. Join me as I continue to explore, learn, and make the most of life's adventures.\n",
+    "titleDrones": "Fueling My Passion: A Lifelong Love for Drones and Filming",
+    "description2": "Ever since I was a kid, the allure of flying objects and the breathtaking perspectives they offer has taken my interest. As I delved into my studies, the dream of building my own drone ignited within me.\nAfter I seized my opportunity in a project, I embarked on a journey to create my very own FPV drones, and oh, what a thrilling, challenging ride it has been. Flying these drones is no walk in the park; it demands relentless practice and precision. But the rewards are beyond measure.\nThe sheer exhilaration of soaring through the skies via FPV goggles is an experience that has etched itself into my heart. It's a feeling of freedom and wonder that's difficult to put into words. But I didn't stop there. I decided to combine my passion for creating memories with my newfound love for FPV flying.\nI affixed a camera to my FPV drone, and suddenly, a whole new world of possibilities unfolded before my eyes. Each flight became a canvas for crafting my own memories, capturing stunning vistas, and telling stories from an entirely unique perspective. It was the intersection of my interests, and I couldn't have been happier with the outcome.\n",
+    "title2": "Jannik Elia Hug",
+    "description3": "Hier sind meine Projekte"
   }
 }
