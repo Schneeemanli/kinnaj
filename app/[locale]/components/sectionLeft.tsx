@@ -14,7 +14,9 @@ export default function SectionLeft({image, title, text, dark}: {
                 <p className="pb-8">{text}</p>
             </div>
             <div className="w-full sm:w-1/3 mb-4 sm:mb-0">
-                <img src={image} alt="Bild" className="w-full h-auto"/>
+                <div className="image-with-sloped-border-left">
+                    <img src={image} alt="Bild" className="w-full h-auto"/>
+                </div>
             </div>
         </div>
     );

@@ -115,3 +115,13 @@
 .custom-transition-size-1-x {
     transform: translateX(9rem);
 }
+
+.image-with-sloped-border {
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    overflow: hidden;
+}
+
+.image-with-sloped-border-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+    overflow: hidden;
+}
