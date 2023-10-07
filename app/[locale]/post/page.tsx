@@ -10,16 +10,19 @@ export default function Page() {
     const paths = fs.readdirSync(path.join(process.cwd(), "public/posts"));
     return (
         <div>
-            <Header/>
-            {paths.map((path) => `/posts/${path}`).map((path) => {
-                return (
-                    <div className="relative">
-                        <video autoPlay loop muted className="w-full object-cover">
-                            <source src={path} type="video/mp4"/>
-                        </video>
-                    </div>
-                )
-            })}
+            <Header />
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                {paths.map((path) => `/posts/${path}`).map((path, index) => {
+                    return (
+                        <div className="relative" key={index}>
+                            <video autoPlay loop muted className="w-full object-cover">
+                                <source src={path} type="video/mp4" />
+                            </video>
+                        </div>
+                    )
+                })}
+            </div>
         </div>
+
     )
 }
