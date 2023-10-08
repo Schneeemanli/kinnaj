@@ -116,12 +116,12 @@
     transform: translateX(9rem);
 }
 
-.image-with-sloped-border {
-    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
-    overflow: hidden;
+@media (min-width: 1200px) {
+    .image-with-sloped-border {
+        clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    }
+    .image-with-sloped-border-left {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
+    }
 }
 
-.image-with-sloped-border-left {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
-    overflow: hidden;
-}

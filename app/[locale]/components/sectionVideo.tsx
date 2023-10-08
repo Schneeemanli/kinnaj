@@ -1,8 +1,8 @@
 import React from "react";
 import DefaultText from "@/app/[locale]/components/defaultText";
 
-export default function Section({image, title, text, dark}: {
-    image: string;
+export default function SectionVideo({video, title, text, dark}: {
+    video: string;
     title: string;
     text: string[];
     dark: boolean
@@ -12,7 +12,9 @@ export default function Section({image, title, text, dark}: {
         <div className={classes}>
             <div className="w-full sm:w-2/5 mb-4 sm:mb-0">
                 <div className="image-with-sloped-border">
-                    <img src={image} alt="Bild" className="w-full h-auto"/>
+                    <video autoPlay loop muted className="w-full object-cover">
+                        <source src={video} type="video/mp4" />
+                    </video>
                 </div>
             </div>
             <DefaultText title={title} text={text} />
