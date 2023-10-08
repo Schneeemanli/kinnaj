@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import {useTranslations} from "next-intl";
+import TextAnimation from "@/app/[locale]/components/TextAnimation";
 
 export default function Kinnaj() {
     const t = useTranslations("Home");
@@ -12,7 +13,7 @@ export default function Kinnaj() {
                 </div>
             </div>
             <div className="w-full sm:w-2/3 sm:ps-5 p-4">
-                <h2 className="text-2xl font-semibold mb-2">Kinnaj Films</h2>
+                <TextAnimation text={['Kinnaj Films', 'Jannik Hug']} classes={'text-2xl md:text-4xl sm:text-xl lg:text-6xl font-bold'}/>
                 <p className="text-primary-100 pb-8">{t("kinajBeschreibung1")}</p>
                 <p className="text-primary-100 pb-8">{t("kinajBeschreibung2")}</p>
                 <p className="text-primary-100 pb-8">{t("kinajBeschreibung3")}</p>
