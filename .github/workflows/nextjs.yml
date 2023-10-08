@@ -28,6 +28,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
+          password: ${{ secrets.PACKAGE }}
       - name: extract metadata (tags, labels) for kinnaj
         id: kinnaj
         uses: docker/metadata-action@v4
