@@ -13,7 +13,9 @@
     "fpvTitel": "Was ist FPV ?",
     "buttonProjects": "Projekte ansehen",
     "buttonAbout": "Über mich",
-    "buttonEquipment": "Meine Werkzeuge"
+    "buttonEquipment": "Meine Werkzeuge",
+    "cookie": "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern.",
+    "cookieButton": "verstanden"
   },
   "Projects": {
     "title": "Projekte",

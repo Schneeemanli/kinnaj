@@ -6,6 +6,8 @@ import Kinnaj from "@/app/[locale]/components/kinnaj";
 import Project from "@/app/[locale]/components/project";
 import Contact from "@/app/[locale]/components/contact";
 import Header from "@/app/[locale]/components/header";
+import {CookieConsent} from "react-cookie-consent";
+import Cookie from "@/app/[locale]/components/cookie";
 
 export default function Home() {
     return (
@@ -25,6 +27,7 @@ export default function Home() {
             <Kinnaj/>
             <Project/>
             <Contact/>
+            <Cookie/>
         </main>
     );
 }
