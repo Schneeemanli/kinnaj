@@ -1,25 +1,13 @@
 "use client"
 
-import {Fragment, useEffect, useState} from 'react'
-import {Dialog, Disclosure, Popover, Transition} from '@headlessui/react'
-import {
-    ArrowPathIcon,
-    Bars3Icon,
-    ChartPieIcon,
-    CursorArrowRaysIcon,
-    FingerPrintIcon,
-    SquaresPlusIcon,
-    XMarkIcon,
-} from '@heroicons/react/24/outline'
-import {ChevronDownIcon, PhoneIcon, PlayCircleIcon} from '@heroicons/react/20/solid'
-import LanguageDropdown from "@/app/[locale]/components/languageDropdown";
-import {ThemeSwitcher} from "@/app/[locale]/components/themeSwitcher";
+import { useEffect, useState} from 'react'
+import {Dialog, Popover} from '@headlessui/react'
 import Link from "next/link";
 import {useTheme} from "next-themes";
 
-function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ')
-}
+import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
+import LanguageDropdown from "@/app/[locale]/components/languageDropdown";
+import {ThemeSwitcher} from "@/app/[locale]/components/themeSwitcher";
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -9,8 +9,8 @@ export default function Cookie() {
             location="bottom"
             buttonText={t("cookieButton")}
             cookieName="cookieConsent"
-            style={{ background: "#2B373B" }}
-            buttonStyle={{ color: "#ffffff", fontSize: "13px", background: "#7318A2", borderRadius: "15px" }}
+            style={{background: "#2B373B"}}
+            buttonStyle={{color: "#ffffff", fontSize: "13px", background: "#7318A2", borderRadius: "15px"}}
             expires={150}
         >
             {t("cookie")}

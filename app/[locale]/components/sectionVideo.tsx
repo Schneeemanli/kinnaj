@@ -19,6 +19,5 @@ export default function SectionVideo({video, title, text, dark}: {
             </div>
             <DefaultText title={title} text={text} />
         </div>
-
     );
 }

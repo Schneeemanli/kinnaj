@@ -15,8 +15,7 @@ export default function Section({image, title, text, dark}: {
                     <img src={image} alt="Bild" className="w-full h-auto"/>
                 </div>
             </div>
-            <DefaultText title={title} text={text} />
+            <DefaultText title={title} text={text}/>
         </div>
-
     );
 }
