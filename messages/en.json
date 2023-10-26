@@ -19,14 +19,46 @@
   },
   "Projects": {
     "title": "Projekte",
-    "description": "Hier sind meine Projekte"
+    "description": "Hier sind meine Projekte",
+    "bastellaTitle": "Bastella GmbH",
+    "bastellaDescription": "Our objective was to bring attention to the location and store, and we achieved this by creating a captivating virtual fly-through experience. Beginning on the bustling main street, we seamlessly glided over the parking area, leading directly into the store. This project served to unveil the hidden gem that this place is, making customers aware of its existence, the convenient parking options, and the best way to reach it. As we journeyed through the store, we highlighted their extensive range of products and services, offering customers a glimpse of what they have to offer. To enhance the user's experience, we integrated Sounddesign into the video, creating a more immersive feel. In addition to the video, we produced optimized Reels to showcase the store's highlights on their social media platforms."
   },
   "About": {
-    "titleJannik": "<-- ME>",
-    "description1": "Hier sind meine Projekte",
-    "titleDrones": "Jannik Elia Hug",
-    "description2": "Hier sind meine Projekte",
+    "titleJannik": "<-- That's me",
+    "descriptionJannik1": "Hey there, I'm Jannik Elia Hug, a 23-year-old on a mission to reach new heights, both in life and adventure. Standing tall at 1.93 meters, I'm all about pushing boundaries. \nMy heart beats for sports, with a constant switch between calisthenics, martial arts, and my latest love, Muay Thai. Technology fuels my curiosity, enabling us to achieve more. I thrive on creating memories, whether it's scaling mountains, making memories with friends, or capturing the beauty of our world through a camera lens.",
+    "descriptionJannik2": "My educational journey took me from Murten, Switzerland, through a computer science apprenticeship and Matura. I later embraced the challenge of special forces training during my military service. Now, I'm diving into the dynamic world of computer science at Berner Fachhochschule. Join me as I continue to explore, learn, and make the most of life's adventures.",
+    "titleDrones": "Fueling My Passion: A Lifelong Love for Drones and Filming",
+    "descriptionDrones1": "Ever since I was a kid, the allure of flying objects and the breathtaking perspectives they offer has taken my interest. As I delved into my studies, the dream of building my own drone ignited within me.\nAfter I seized my opportunity in a project, I embarked on a journey to create my very own FPV drones, and oh, what a thrilling, challenging ride it has been. Flying these drones is no walk in the park; it demands relentless practice and precision. But the rewards are beyond measure.\nThe sheer exhilaration of soaring through the skies via FPV goggles is an experience that has etched itself into my heart. It's a feeling of freedom and wonder that's difficult to put into words. But I didn't stop there. ",
+    "descriptionDrones2": "I decided to combine my passion for creating memories with my newfound love for FPV flying.\nI affixed a camera to my FPV drone, and suddenly, a whole new world of possibilities unfolded before my eyes. Each flight became a canvas for crafting my own memories, capturing stunning vistas, and telling stories from an entirely unique perspective. It was the intersection of my interests, and I couldn't have been happier with the outcome.\n",
     "title2": "Jannik Elia Hug",
     "description3": "Hier sind meine Projekte"
+  },
+  "Equipment": {
+    "1t": "Custom 5zoll",
+    "1d": "Erste gebaute Drone mit Velox Motoren und einer Vista Air 2 ",
+    "2t": "Custom 5inch with O3unit",
+    "2d": "Hier sind meine Projekte",
+    "3t": "Projekte",
+    "3d": "Hier sind meine Projekte",
+    "4t": "Projekte",
+    "4d": "Hier sind meine Projekte",
+    "5t": "Projekte",
+    "5d": "Hier sind meine Projekte"
+  },
+  "Contact": {
+    "title": "Let's create... together !",
+    "ineterested": "",
+    "unsure": "Unsure about your vision or how to get there? Don't fret – together, we'll find the way. Contact me today!",
+    "contact": "Jannik Elia Hug",
+    "email": "kinnajfilms@gmail.com",
+    "or": "Or",
+    "insta": "Feel free to slide into my DMs on social media. ",
+    "exited": "I'm excited to work with you. Now, go soak up some sunshine! "
+  },
+  "Header": {
+    "button1": "About Me",
+    "button2": "Projects",
+    "button3": "FPV",
+    "button4": "Idea Corner"
   }
 }
