@@ -20,14 +20,14 @@ export default function Page() {
       />
       <SectionLeftVideo
         video="/titleVideo.mp4"
-        title="Titel1"
-        text={["lorem ipsum"]}
+        title={t("castiglioneTitle")}
+        text={[t("castiglioneDescription")]}
         dark={false}
       />
       <SectionVideo
         video="/titleVideo.mp4"
-        title="Titel1"
-        text={["lorem ipsum"]}
+        title={t("tcmTitle")}
+        text={[t("tcmDescription")]}
         dark={true}
       />
     </div>
