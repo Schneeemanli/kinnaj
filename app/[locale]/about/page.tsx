@@ -4,15 +4,16 @@ import Header from "@/app/[locale]/components/header";
 import Section from "@/app/[locale]/components/section";
 import SectionLeft from "@/app/[locale]/components/sectionLeft";
 import { useTranslations } from "next-intl";
+import SectionAnimation from "@/app/[locale]/components/sectionAnimation";
 
 export default function Page() {
   const t = useTranslations("About");
   return (
     <div>
       <Header />
-      <Section
+      <SectionAnimation
         image="/about_me/about1.jpg"
-        title={t("titleJannik")}
+        title={[t("titleJannik"), "Jannik Hug"]}
         text={[t("descriptionJannik1"), t("descriptionJannik2")]}
         dark={true}
       />
