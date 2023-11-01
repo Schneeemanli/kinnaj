@@ -21,7 +21,7 @@ export default function Kinnaj() {
           text={["Kinnaj Films", "Jannik Hug"]}
           classes={"text-2xl md:text-4xl sm:text-xl lg:text-6xl font-bold"}
         />
-        <p className="text-primary-100 pb-8">{t("kinajBeschreibung1")}</p>
+        <p className="text-primary-100 py-8">{t("kinajBeschreibung1")}</p>
         <p className="text-primary-100 pb-8">{t("kinajBeschreibung2")}</p>
         <p className="text-primary-100 pb-8">{t("kinajBeschreibung3")}</p>
         <p className="text-primary-100 pb-8">{t("kinajBeschreibung4")}</p>
