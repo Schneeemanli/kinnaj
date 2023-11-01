@@ -49,11 +49,11 @@
     "v1t": "My First Baby",
     "v1d": "Where it all began, my very first FPV drone. This resilient companion, built on a Lumenier QAV-S JohnnyFPV frame, has endured countless crashes and forgiven my beginner's mistakes. With its F411+V45A Lite stack, T-Motor Velox V2 motors, and a Caddx Vista Air Unit, it's the enduring heart of my FPV journey.",
     "avatat": "DJI Avata",
-    "avatad": "ToDO",
+    "avatad": "Meet the DJI Avata, a versatile FPV drone that I've tailored to my preferences with a custom 3D printed GoPro mount on top. While it's not my go-to for every flight, I appreciate its user-friendly design, making it a good choice for beginners and those who enjoy capturing immersive FPV video. However, as I've ventured into more advanced FPV flying, I've found other drones that offer enhanced performance. Nevertheless, the DJI Avata remains in my collection, proving its worth when specific needs arise.",
     "batteriest": "All Kinds of Batteries",
     "batteriesd": "Lipo batteries, the lifeblood of drones, come in all sizes to power these aerial marvels. From compact micro-drones to high-performance racing quads, there's a Lipo battery for every need, ensuring that the skies are always within reach.",
-    "tango2t": "",
-    "tango2d": "",
+    "tango2t": "TBS Tango II Pro",
+    "tango2d": "The TBS Tango II Pro sets a new standard for remote controls. Despite its compact form, it boasts full-size folding HAL sensor gimbals, low latency, and a comprehensive feature set. Notably, it's the first radio with TBS Crossfire built-in, harnessing low-frequency transmission for exceptional range and penetration. With its size, it's also perfect for travel. In fact, I made the switch to this remote precisely because of its compact dimensions, ensuring I had a reliable companion during my two-month journey through Asia.",
     "tx16t": "Radiomaster TX16S Mark II",
     "tx16d": "The RadioMaster TX16S Mark II, with ELRS (ExpressLRS) technology, is the ideal choice for remote control enthusiasts. Versatile and user-friendly, it's compatible with various RC models. This durable transmitter offers precision control, extended battery life, and customizable features, making it perfect for all levels of RC enthusiasts.",
     "ndt": "All kinds of ND Filters",
@@ -63,7 +63,9 @@
     "analogt": "Analog FPV goggles",
     "analogd": "Analog FPV goggles provide an immersive experience with low latency and real-time transmission, ideal for high-speed flights. Customizable for comfort, they are known for their durability. It's worth noting that they offer lower resolution and represent the older generation of FPV technology, with digital alternatives now available. Nonetheless, they remain popular among FPV enthusiasts for their authenticity and reliability.",
     "sonyCamerat": "Sony Alpha 7 III",
-    "sonyCamerad": "The Sony Alpha 7 III is a highly regarded full-frame mirrorless camera in photography and videography. It features a 24.2-megapixel sensor for stunning imagery and 4K video with excellent low-light performance. Its autofocus system is fast and accurate, and it offers professional-level video recording. The 5-axis image stabilization ensures steady shots, and I use it to capture high-quality photos for businesses. It's a versatile and reliable tool for various photography genres and video production."
+    "sonyCamerad": "The Sony Alpha 7 III is a highly regarded full-frame mirrorless camera in photography and videography. It features a 24.2-megapixel sensor for stunning imagery and 4K video with excellent low-light performance. Its autofocus system is fast and accurate, and it offers professional-level video recording. The 5-axis image stabilization ensures steady shots, and I use it to capture high-quality photos for businesses. It's a versatile and reliable tool for various photography genres and video production.",
+    "goggles2t": "DJI Goggles 2",
+    "goggles2d": "Step into the future of FPV goggles with DJI Goggles 2, the latest generation of immersive aerial exploration. These cutting-edge goggles offer high-resolution displays, digital transmission, and a compact design that's perfect for easy transport. With DJI Goggles 2, you'll be transported to the skies, ready to capture breathtaking shots from a bird's-eye view, and elevate your aerial adventures to new heights. These are the goggles I use most of the time, ensuring I never miss a moment from above."
   },
   "Contact": {
     "title": "Let's create... together !",

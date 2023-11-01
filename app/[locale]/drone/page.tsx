@@ -43,8 +43,8 @@ export default function Page() {
       />
       <SectionLeft
         image="/equipment/googles2.jpg"
-        title={t("6t")}
-        text={[t("6t")]}
+        title={t("goggles2t")}
+        text={[t("goggles2d")]}
         dark={false}
       />
       <Section
@@ -55,8 +55,8 @@ export default function Page() {
       />
       <SectionLeft
         image="/equipment/tango2.jpg"
-        title={t("6t")}
-        text={[t("6t")]}
+        title={t("tango2t")}
+        text={[t("tango2d")]}
         dark={false}
       />
       <Section
