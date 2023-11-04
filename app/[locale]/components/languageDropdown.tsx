@@ -91,6 +91,23 @@ export default function LanguageDropdown() {
                                 </Link>
                             )}
                         </Menu.Item>
+                        <Menu.Item>
+                            {({active}) => (
+                                <Link
+                                    href={pathname}
+                                    locale="es"
+                                    className={classNames(
+                                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                        'block px-4 py-2 text-sm'
+                                    )}
+                                >
+                                    <div className="flex justify-between">
+                                        <div className="text-left">Espanol</div>
+                                        <span className="fi fi-es ms-1 rounded-full"></span>
+                                    </div>
+                                </Link>
+                            )}
+                        </Menu.Item>
                     </div>
                 </Menu.Items>
             </Transition>

@@ -48,25 +48,25 @@ export default function Header() {
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     <Link
                         href="/about"
-                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1"
+                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1 p-4"
                     >
                         {t("button1")}
                     </Link>
                     <Link
                         href="/project"
-                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1"
+                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1 p-4"
                     >
                         {t("button2")}
                     </Link>
                     <Link
                         href="/drone"
-                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1"
+                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1 p-4"
                     >
                         {t("button3")}
                     </Link>
                     <Link
                         href="/post"
-                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1"
+                        className="text-sm font-semibold leading-6 text-foreground hover:text-gray-500 transition-transform hover:transform-gpu hover:-translate-y-1 p-4"
                     >
                         {t("button4")}
                     </Link>

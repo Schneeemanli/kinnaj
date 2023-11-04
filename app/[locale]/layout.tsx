@@ -10,7 +10,7 @@ import Footer from "@/app/[locale]/components/footer";
 import {Providers} from "@/app/[locale]/components/provider";
 
 const inter = Inter({subsets: ['latin']})
-const locales = ['en', 'de', 'fr'];
+const locales = ['en', 'de', 'fr', 'es'];
 export const metadata: Metadata = {
     title: 'Kinnaj Films',
     description: 'Smart Films for Smart People',

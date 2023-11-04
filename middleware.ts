@@ -1,7 +1,7 @@
 import createMiddleware from 'next-intl/middleware';
 
 export default createMiddleware({
-    locales: ['en', 'de', 'fr'],
+    locales: ['en', 'de', 'fr', 'es'],
     defaultLocale: 'de'
 });
 
