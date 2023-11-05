@@ -19,7 +19,7 @@ export default function Contact() {
                 <p className="text-primary-100">{t("exited")}</p>
             </div>
             <div className="md:w-1/2">
-                <img src="ai1.png" alt="Bildbeschreibung" className="w-full h-auto"/>
+                <img src="/ai/ai3.png" alt="Bildbeschreibung" className="w-full h-auto"/>
             </div>
         </div>
     );
