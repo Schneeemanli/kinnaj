@@ -72,14 +72,6 @@
     }
 }
 
-.animate-move-left {
-    animation: move-left 6s ease-in-out alternate infinite;
-}
-
-.animate-move-right {
-    animation: move-right 8s ease-in-out alternate infinite;
-}
-
 .custom-transition-time {
     transition-duration: 2000ms;
 }
@@ -123,5 +115,10 @@
     .image-with-sloped-border-left {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 5% 100%);
     }
+}
+
+.test {
+    height: 50%;
+    background: linear-gradient(135deg, black 49.5%, white 50.5%);
 }
 
