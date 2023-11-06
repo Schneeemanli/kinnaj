@@ -5,7 +5,7 @@ export default function DefaultText({title, text}: {
     text: string[];
 }) {
     return (
-        <div className="w-full sm:w-3/5 sm:ps-5 p-4">
+        <div className="w-full sm:w-3/5 sm:ps-5 p-6 m-4">
             <h2 className="text-2xl font-semibold mb-2">{title}</h2>
             {text.map((textItem, index) => (
                 <p key={index}>

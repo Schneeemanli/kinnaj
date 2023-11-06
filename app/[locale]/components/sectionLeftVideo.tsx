@@ -7,7 +7,7 @@ export default function SectionLeftVideo({video, title, text, dark}: {
     text: string[];
     dark: boolean
 }) {
-    const classes = dark ? "flex flex-col-reverse md:flex-row bg-primary-50 text-white" : "flex flex-col-reverse md:flex-row";
+    const classes = dark ? "flex flex-col items-center justify-center sm:flex-row bg-primary-50 text-white" : "flex flex-col items-center justify-center sm:flex-row";
     return (
         <div className={classes}>
             <DefaultText title={title} text={text}/>
