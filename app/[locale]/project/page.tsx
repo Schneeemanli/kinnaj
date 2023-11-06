@@ -1,11 +1,9 @@
 import React from "react";
-import Footer from "@/app/[locale]/components/footer";
+import { useTranslations } from "next-intl";
+
 import Header from "@/app/[locale]/components/header";
-import Section from "@/app/[locale]/components/section";
-import SectionLeft from "@/app/[locale]/components/sectionLeft";
 import SectionVideo from "@/app/[locale]/components/sectionVideo";
 import SectionLeftVideo from "@/app/[locale]/components/sectionLeftVideo";
-import { useTranslations } from "next-intl";
 
 export default function Page() {
   const t = useTranslations("Projects");
@@ -17,18 +15,22 @@ export default function Page() {
         title={t("bastellaTitle")}
         text={[t("bastellaDescription")]}
         dark={true}
+        logo={"/client_logos/bastella.png"}
       />
       <SectionLeftVideo
         video="/titleVideo.mp4"
         title={t("castiglioneTitle")}
         text={[t("castiglioneDescription")]}
         dark={false}
+        logo={"/client_logos/Castiglione_Falletto.png"}
+        width={"w-12"}
       />
       <SectionVideo
         video="/titleVideo.mp4"
         title={t("tcmTitle")}
         text={[t("tcmDescription")]}
         dark={true}
+        logo={"/client_logos/tennisclub_murten.png"}
       />
     </div>
   );

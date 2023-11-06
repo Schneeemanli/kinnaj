@@ -1,11 +1,12 @@
 import React from "react";
 import DefaultText from "@/app/[locale]/components/defaultText";
 
-export default function SectionVideo({video, title, text, dark}: {
+export default function SectionVideo({video, title, text, dark, logo}: {
     video: string;
     title: string;
     text: string[];
-    dark: boolean
+    dark: boolean,
+    logo?: string;
 }) {
     const classes = dark ? "flex flex-col items-center justify-center sm:flex-row bg-primary-50 text-white" : "flex flex-col items-center justify-center sm:flex-row";
     return (
@@ -17,7 +18,8 @@ export default function SectionVideo({video, title, text, dark}: {
                     </video>
                 </div>
             </div>
-            <DefaultText title={title} text={text} />
+            <DefaultText title={title} text={text} logo={logo}/>
         </div>
+
     );
 }
