@@ -5,8 +5,7 @@ export default function Page() {
   return (
     <div>
       <Header />
-      <h2>Impressum</h2>
-      <p>
+      <div className="m-8">
         <b>Responsible entity:</b>
         <br />
         Jannik Hug
@@ -51,7 +50,7 @@ export default function Page() {
         holder must be obtained in advance for the reproduction of any elements.
         <br />
         <br />
-      </p>
+      </div>
     </div>
   );
 }

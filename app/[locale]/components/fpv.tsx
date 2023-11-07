@@ -24,6 +24,7 @@ export default function Fpv() {
             </div>
             <div className="w-full sm:w-1/2 bg-primary-50 flex items-center justify-center">
                 <div className="text-white p-6">
+                    <h2 className="text-2xl font-semibold mb-4 items-center flex justify-center">Certified (Drone) Pilot</h2>
                     <div className="flex flex-col justify-center items-center">
                         <div className="mb-8">
                             <img
