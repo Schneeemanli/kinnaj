@@ -23,7 +23,7 @@ export default function Page() {
         text={[t("castiglioneDescription")]}
         dark={false}
         logo={"/client_logos/Castiglione_Falletto.png"}
-        width={"w-12"}
+        width={"w-16"}
       />
       <SectionVideo
         video="/titleVideo.mp4"

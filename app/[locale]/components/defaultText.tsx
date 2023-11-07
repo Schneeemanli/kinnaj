@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DefaultText({title, text, logo, width = "w-32"}: {
+export default function DefaultText({title, text, logo, width = "w-40"}: {
     title: string;
     text: string[];
     logo?: string;
@@ -15,7 +15,7 @@ export default function DefaultText({title, text, logo, width = "w-32"}: {
                 </p>
             ))}
             {logo && (
-                <div className="absolute top-0 right-0 m-2">
+                <div className="absolute top-0 right-0">
                     <img src={logo} alt="Dein Logo" className={width}/>
                 </div>
             )}
