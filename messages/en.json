@@ -83,5 +83,9 @@
     "button2": "Projects",
     "button3": "FPV",
     "button4": "Ideas Corner"
+  },
+  "IdeaCorner": {
+    "title": "Ideas Corner",
+    "description": "Here are some ideas for your next project"
   }
 }
