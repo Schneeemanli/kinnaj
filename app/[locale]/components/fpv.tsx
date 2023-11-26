@@ -31,7 +31,7 @@ export default function Fpv() {
                                 <img
                                     src="/certs/download.png"
                                     alt="Bild 1"
-                                    className="h-40 object-contain rounded-md bg-white p-2 cursor-pointer"
+                                    className="h-40 object-contain rounded-md bg-white p-8 cursor-pointer"
                                 />
                             </a>
                         </div>
