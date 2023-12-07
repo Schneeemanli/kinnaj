@@ -1,5 +1,6 @@
 {
   "Home": {
+    "clients" : "Clients",
     "title": "Bonjour le monde!",
     "language": "Langue",
     "kinajBeschreibung1": "En tant qu'expert en vidéographie et photographie avancée par drone, je propose un large éventail de services incluant des prises de vue en intérieur, des séquences d'action, des vues immobilières et des paysages époustouflants.",
@@ -68,7 +69,7 @@
     "goggles2d": "Entrez dans le futur des lunettes FPV avec les DJI Goggles 2, la dernière génération d'exploration aérienne immersive. Ces lunettes de pointe offrent des écrans haute résolution, une transmission numérique et un design compact, parfait pour un transport facile. Avec les DJI Goggles 2, vous serez transporté dans les cieux, prêt à capturer des prises de vue à couper le souffle depuis une vue d'oiseau, et à élever vos aventures aériennes à de nouveaux sommets. Ce sont les lunettes que j'utilise le plus souvent, m'assurant de ne jamais manquer un moment vu d'en haut."
   },
   "Contact": {
-    "title": "Créons ensemble...",
+    "title": "Créons...",
     "title2": " ensemble !",
     "ineterested": "",
     "unsure": "Vous n'êtes pas sûr de votre vision ou de comment y parvenir ? Ne vous inquiétez pas – ensemble, nous trouverons le chemin. Contactez-moi dès aujourd'hui !",

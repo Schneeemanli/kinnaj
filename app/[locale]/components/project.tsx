@@ -7,7 +7,7 @@ export default function Project() {
   const t = useTranslations("Home");
   return (
     <div className="white flex flex-col items-center justify-between bg-primary-50">
-      <h1 className="pt-8 text-white font-bold text-2xl">Clients</h1>
+      <h1 className="pt-8 text-white font-bold text-2xl">{t("clients")}</h1>
       <div className="px-4 sm:px-8 md:px-14 lg:px-18 pt-10 pb-8 flex items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <RevealOnScroll time="0">
