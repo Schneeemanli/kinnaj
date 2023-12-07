@@ -26,29 +26,29 @@ export default function Fpv() {
                 <div className="text-white p-6">
                     <h2 className="text-2xl font-semibold mb-4 items-center flex justify-center">Certified (Drone) Pilot</h2>
                     <div className="flex flex-col justify-center items-center">
-                        <div className="mb-8">
+                        <div className="mb-12">
                             <a href="/certs/Cert.pdf" target="_blank" rel="noopener noreferrer">
                                 <img
                                     src="/certs/download.png"
                                     alt="Bild 1"
-                                    className="h-40 object-contain rounded-md bg-white p-8 cursor-pointer"
+                                    className="h-32 object-contain rounded-md bg-white p-8 cursor-pointer"
                                 />
                             </a>
                         </div>
 
                         <div className="flex">
-                            <div className="mr-8">
+                            <div className="mr-12">
                                 <img
                                     src="/certs/A1.png"
                                     alt="Bild 2"
-                                    className="h-40 object-contain rounded-md"
+                                    className="h-32 object-contain rounded-md"
                                 />
                             </div>
                             <div>
                                 <img
                                     src="/certs/A2.png"
                                     alt="Bild 3"
-                                    className="h-40 object-contain rounded-md"
+                                    className="h-32 object-contain rounded-md"
                                 />
                             </div>
                         </div>

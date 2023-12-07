@@ -73,7 +73,7 @@ export default function Header() {
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <LanguageDropdown/>
-                    <div className="mx-2">
+                    <div className="mx-5">
                         <ThemeSwitcher/>
                     </div>
                 </div>
