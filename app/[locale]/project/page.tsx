@@ -18,27 +18,27 @@ export default function Page() {
         logo={"/client_logos/bastella.png"}
       />
       <SectionLeftVideo
-        video="/proj_videos/Casta_low.mp4"
-        title={t("castiglioneTitle")}
-        text={[t("castiglioneDescription")]}
-        dark={false}
-        logo={"/client_logos/Castiglione_Falletto.png"}
-        width={"w-16"}
+          video="/proj_videos/Tennis_low.mp4"
+          title={t("tcmTitle")}
+          text={[t("tcmDescription")]}
+          dark={false}
+          logo={"/client_logos/tennisclub_murten_black.png"}
+          width={"w-16"}
       />
       <SectionVideo
-        video="/proj_videos/Tennis_low.mp4"
-        title={t("tcmTitle")}
-        text={[t("tcmDescription")]}
-        dark={true}
-        logo={"/client_logos/tennisclub_murten.png"}
+          video="/proj_videos/Casta_low.mp4"
+          title={t("castiglioneTitle")}
+          text={[t("castiglioneDescription")]}
+          dark={true}
+          logo={"/client_logos/Castiglione_Falletto_transparent.png"}
       />
       <SectionLeftVideo
-            video="/proj_videos/Tennis_low.mp4"
-            title={t("castiglioneTitle")}
-            text={[t("castiglioneDescription")]}
-            dark={false}
-            logo={"/client_logos/Castiglione_Falletto.png"}
-            width={"w-16"}
+          video="/proj_videos/Viadukt.mp4"
+          title={t("viaduktTitle")}
+          text={[t("viaduktDescription")]}
+          dark={false}
+          logo={"/logo_black.svg"}
+          width={"w-16"}
       />
     </div>
   );

@@ -11,23 +11,23 @@ export default function Project() {
       <div className="px-4 sm:px-8 md:px-14 lg:px-18 pt-10 pb-8 flex items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <RevealOnScroll time="0">
-            <div className="bg-white shadow-lg rounded-sm overflow-hidden animate-client-card-one">
+            <div className="bg-white shadow-lg rounded-sm overflow-hidden animate-client-card-two">
               <div className="flex items-center justify-center p-8">
                 <img
-                  src="/client_logos/sottas.png"
-                  alt="Client 1 Logo"
-                  className="w-32 h-32 object-contain"
+                    src="/client_logos/tennisclub_murten_black.png"
+                    alt="Client 2 Logo"
+                    className="w-32 h-32 object-contain"
                 />
               </div>
             </div>
           </RevealOnScroll>
           <RevealOnScroll time="1">
-            <div className="bg-white shadow-lg rounded-sm overflow-hidden animate-client-card-two">
+            <div className="bg-white shadow-lg rounded-sm overflow-hidden animate-client-card-one">
               <div className="flex items-center justify-center p-8">
                 <img
-                  src="/client_logos/tennisclub_murten_black.png"
-                  alt="Client 2 Logo"
-                  className="w-32 h-32 object-contain"
+                    src="/client_logos/sottas.png"
+                    alt="Client 1 Logo"
+                    className="w-32 h-32 object-contain"
                 />
               </div>
             </div>
